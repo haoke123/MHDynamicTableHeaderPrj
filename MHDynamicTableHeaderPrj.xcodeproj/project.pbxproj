@@ -13,6 +13,7 @@
 		25167D41215CC1B5004BEF06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25167D40215CC1B5004BEF06 /* Assets.xcassets */; };
 		25167D44215CC1B5004BEF06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25167D42215CC1B5004BEF06 /* LaunchScreen.storyboard */; };
 		25167D47215CC1B5004BEF06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25167D46215CC1B5004BEF06 /* main.m */; };
+		25DEEDE6215CD25700C94084 /* MHNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DEEDE5215CD25700C94084 /* MHNaviBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		25167D43215CC1B5004BEF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25167D45215CC1B5004BEF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25167D46215CC1B5004BEF06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DEEDE4215CD25700C94084 /* MHNaviBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHNaviBar.h; sourceTree = "<group>"; };
+		25DEEDE5215CD25700C94084 /* MHNaviBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHNaviBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				25167D38215CC1B3004BEF06 /* AppDelegate.m */,
 				25167D3A215CC1B3004BEF06 /* ViewController.h */,
 				25167D3B215CC1B3004BEF06 /* ViewController.m */,
+				25DEEDE4215CD25700C94084 /* MHNaviBar.h */,
+				25DEEDE5215CD25700C94084 /* MHNaviBar.m */,
 				25167D3D215CC1B3004BEF06 /* Main.storyboard */,
 				25167D40215CC1B5004BEF06 /* Assets.xcassets */,
 				25167D42215CC1B5004BEF06 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			files = (
 				25167D3C215CC1B3004BEF06 /* ViewController.m in Sources */,
 				25167D47215CC1B5004BEF06 /* main.m in Sources */,
+				25DEEDE6215CD25700C94084 /* MHNaviBar.m in Sources */,
 				25167D39215CC1B3004BEF06 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27MWA5M4VQ;
 				INFOPLIST_FILE = MHDynamicTableHeaderPrj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27MWA5M4VQ;
 				INFOPLIST_FILE = MHDynamicTableHeaderPrj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
